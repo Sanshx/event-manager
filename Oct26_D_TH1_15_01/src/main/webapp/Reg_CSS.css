@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+/* Above line is to import google font style */
+.white, .white a {
+  color: #fff;
+}
+.content{
+width:100%;
+margin:20px auto;
+}
+.main{
+float:left;
+width: 100%;
+margin-top:80px;
+}
+#progressbar{
+margin:0;
+padding:0;
+font-size:18px;
+}
+.active{
+color:black;
+}
+fieldset{
+display:none;
+width: 80%;
+padding:10px;
+margin-top:50px;
+margin-bottom:100px;
+border-radius:5px;
+box-shadow: 3px 3px 25px 1px gray;
+}
+#first{
+display:block;
+width: 80%;
+padding:20px;
+margin-top:50px;
+border-radius:5px;
+box-shadow: 3px 3px 25px 1px gray;
+}
+
+textarea{
+width:80%;
+margin:10px 0;
+height:70px;
+padding:5px;
+border-radius: 4px;
+}
+input.bttn{
+width: 30%;
+margin:15px 25px;
+padding: 5px;
+height: 40px;
+background-color: #084B8A;
+border: none;
+border-radius: 4px;
+color: white;
+font-family: 'Ubuntu', Helvetica, Arial, sans-serif!important;
+}
+h1{ font-size:6.2vw; font-family: 'Ubuntu', Helvetica, Arial, sans-serif!important; padding: 0px; display:inline}
+h2,p{
+text-align:center;
+font-family: 'Ubuntu', Helvetica, Arial, sans-serif!important;
+}
+p.p2{ font-size:1.5vw; font-family: 'Ubuntu', Helvetica, Arial, sans-serif!important; padding: 0px; display:inline}
+li.head{
+margin-right:100px;
+display:inline;
+font-family: 'Ubuntu', Helvetica, Arial, sans-serif!important;
+}
+ body { 
+  background: url(background_blur.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+th, td, li {
+	font-size:1.2vw;
+	font-family: 'Lato Hairline Light';
+    padding: 10px;
+}
+  .sign-in-facebook
+  {
+    background-image: url('facebook.png');
+    background-position: -9px -7px;
+    background-repeat: no-repeat;
+    background-size: 39px 43px;
+    padding-left: 18px;
+    color: #000;
+  }
+  .sign-in-facebook:hover
+  {
+    background-image: url('facebook.png');
+    background-position: -9px -7px;
+    background-repeat: no-repeat;
+    background-size: 39px 43px;
+    padding-left: 18px;
+    color: #000;
+  }
+ .sign-in-twitter
+  {
+    background-image: url('twitter.png');
+    background-position: -4px -5px;
+    background-repeat: no-repeat;
+    background-size: 39px 43px;
+    padding-left: 18px;
+    color: #000;
+  }
+  .sign-in-twitter:hover
+  {
+    background-image: url('twitter.png');
+    background-position: -4px -5px;
+    background-repeat: no-repeat;
+    background-size: 39px 43px;
+    padding-left: 18px;
+    color: #000;
+  }
+  .sign-in-linkedin
+  {
+    background-image: url('linkedin.png');
+    background-position: -4px -5px;
+    background-repeat: no-repeat;
+    background-size: 39px 43px;
+    padding-left: 18px;
+    color: #000;
+  }
+  .sign-in-linkedin:hover
+  {
+    background-image: url('linkedin.png');
+    background-position: -4px -5px;
+    background-repeat: no-repeat;
+    background-size: 39px 43px;
+    padding-left: 18px;
+    color: #000;
+  }
+$(function() {
+  // Setup drop down menu
+  //$('.dropdown-toggle').dropdown();
+ 
+  // Fix input element click problem
+  $('.dropdown input, .dropdown label').click(function(e) {
+    e.stopPropagation();
+  });
+});

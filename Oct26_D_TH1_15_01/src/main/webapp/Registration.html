@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EMS-Company Registration</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<meta content="noindex, nofollow" name="robots">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link href="Reg_CSS.css" rel="stylesheet" type="text/css">
+<script src="Reg_JS.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-fixed">
+  <div class="container-fluid">
+    <button type="button" style="background-color:white;" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar" style="background-color:black;"></span>
+        <span class="icon-bar" style="background-color:black;"></span>
+        <span class="icon-bar" style="background-color:black;"></span>                        
+      </button>
+	<div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="Home.html"><font color="black"><b>Home</b></font></a></li>
+        <li><a href="About_us.html"><font color="black"><b>About us</b></font></a></li>
+        <li><a href="Contact_us.html"><font color="black"><b>Contact us</b></font></a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+<div class="container-fluid" align="center">
+<h1><font color="black" >Company Registration</font></h1>
+</div>
+<div class="content" align="center">
+<!-- Multistep Form -->
+<div class="main container-fluid table-responsive">
+<form action="OrganizationRegistration" class="regform" method="post">
+<!-- Progress Bar -->
+<ul id="progressbar">
+<li class="active head">Company Registration</li>
+<li class="head">Super Admin Details</li>
+</ul>
+<!-- Fieldsets -->
+<fieldset id="first">
+<h2 class="title">Company Registration</h2>
+<p class="subtitle">Step 1</p>
+<table style="margin-left:100px">
+	<tr><td><font color="black"><b>Organization name :</b></font></td><td> <input type="text" name="comp_name" required></td></tr>
+	<tr><td><font color="black"><b>Organization description :</b></font></td><td> <textarea name="comp_desc" cols="50" rows="5" required></textarea></td></tr>
+	<tr><td><font color="black"><b>Organization anniversary : </b></font></td><td> <input type="date" name="comp_bday" required></td></tr>
+	<tr><td><font color="black"><b>Organization recovery mail :</b></font></td><td> <input type="email" name="comp_mail" required></td></tr>
+</table>
+	<br />
+	<input class="next_btn bttn" type="button" value="Next" />
+</fieldset>
+<fieldset>
+<h2 class="title">Super Admin Details</h2>
+<p class="subtitle">Step 2</p>
+<table style="margin-left:100px">
+	<tr><td><font color="black"><b>Employee-Id :</b></font></td><td> <input type="text" name="adm_id" required></td></tr>
+	<tr><td><font color="black"><b>First Name :</b></font></td><td> <input type="text" name="adm_fname" required></td></tr>
+	<tr><td><font color="black"><b>Last Name : </b></font></td><td> <input type="text" name="adm_lname" required></td></tr>
+	<tr><td><font color="black"><b>Birthday : </b></font></td><td> <input type="date" name="adm_bday" required></td></tr>
+	<tr><td><font color="black"><b>Start of Work : </b></font></td><td> <input type="date" name="adm_wannv" required></td></tr>
+<!-- 	<tr><td><font color="black"><b>Department :</b></font></td><td> <input type="text" name="adm_dept" required></td></tr> -->
+<!-- 	<tr><td><font color="black"><b>Department Birthday : </b></font></td><td> <input type="date" name="adm_dbday" required></td></tr> -->
+	<tr><td><font color="black"><b>Country : </b></font></td>
+	<td><select name="adm_country">
+<option value="Afganistan">Afghanistan</option>
+<option value="Albania">Albania</option>
+<option value="Algeria">Algeria</option>
+<option value="American Samoa">American Samoa</option>
+<option value="Andorra">Andorra</option>
+<option value="Angola">Angola</option>
+<option value="Anguilla">Anguilla</option>
+<option value="Antigua &amp; Barbuda">Antigua &amp; Barbuda</option>
+<option value="Argentina">Argentina</option>
+<option value="Armenia">Armenia</option>
+<option value="Aruba">Aruba</option>
+<option value="Australia">Australia</option>
+<option value="Austria">Austria</option>
+<option value="Azerbaijan">Azerbaijan</option>
+<option value="Bahamas">Bahamas</option>
+<option value="Bahrain">Bahrain</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Barbados">Barbados</option>
+<option value="Belarus">Belarus</option>
+<option value="Belgium">Belgium</option>
+<option value="Belize">Belize</option>
+<option value="Benin">Benin</option>
+<option value="Bermuda">Bermuda</option>
+<option value="Bhutan">Bhutan</option>
+<option value="Bolivia">Bolivia</option>
+<option value="Bonaire">Bonaire</option>
+<option value="Bosnia &amp; Herzegovina">Bosnia &amp; Herzegovina</option>
+<option value="Botswana">Botswana</option>
+<option value="Brazil">Brazil</option>
+<option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+<option value="Brunei">Brunei</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Burkina Faso">Burkina Faso</option>
+<option value="Burundi">Burundi</option>
+<option value="Cambodia">Cambodia</option>
+<option value="Cameroon">Cameroon</option>
+<option value="Canada">Canada</option>
+<option value="Canary Islands">Canary Islands</option>
+<option value="Cape Verde">Cape Verde</option>
+<option value="Cayman Islands">Cayman Islands</option>
+<option value="Central African Republic">Central African Republic</option>
+<option value="Chad">Chad</option>
+<option value="Channel Islands">Channel Islands</option>
+<option value="Chile">Chile</option>
+<option value="China">China</option>
+<option value="Christmas Island">Christmas Island</option>
+<option value="Cocos Island">Cocos Island</option>
+<option value="Colombia">Colombia</option>
+<option value="Comoros">Comoros</option>
+<option value="Congo">Congo</option>
+<option value="Cook Islands">Cook Islands</option>
+<option value="Costa Rica">Costa Rica</option>
+<option value="Cote DIvoire">Cote D'Ivoire</option>
+<option value="Croatia">Croatia</option>
+<option value="Cuba">Cuba</option>
+<option value="Curaco">Curacao</option>
+<option value="Cyprus">Cyprus</option>
+<option value="Czech Republic">Czech Republic</option>
+<option value="Denmark">Denmark</option>
+<option value="Djibouti">Djibouti</option>
+<option value="Dominica">Dominica</option>
+<option value="Dominican Republic">Dominican Republic</option>
+<option value="East Timor">East Timor</option>
+<option value="Ecuador">Ecuador</option>
+<option value="Egypt">Egypt</option>
+<option value="El Salvador">El Salvador</option>
+<option value="Equatorial Guinea">Equatorial Guinea</option>
+<option value="Eritrea">Eritrea</option>
+<option value="Estonia">Estonia</option>
+<option value="Ethiopia">Ethiopia</option>
+<option value="Falkland Islands">Falkland Islands</option>
+<option value="Faroe Islands">Faroe Islands</option>
+<option value="Fiji">Fiji</option>
+<option value="Finland">Finland</option>
+<option value="France">France</option>
+<option value="French Guiana">French Guiana</option>
+<option value="French Polynesia">French Polynesia</option>
+<option value="French Southern Ter">French Southern Ter</option>
+<option value="Gabon">Gabon</option>
+<option value="Gambia">Gambia</option>
+<option value="Georgia">Georgia</option>
+<option value="Germany">Germany</option>
+<option value="Ghana">Ghana</option>
+<option value="Gibraltar">Gibraltar</option>
+<option value="Great Britain">Great Britain</option>
+<option value="Greece">Greece</option>
+<option value="Greenland">Greenland</option>
+<option value="Grenada">Grenada</option>
+<option value="Guadeloupe">Guadeloupe</option>
+<option value="Guam">Guam</option>
+<option value="Guatemala">Guatemala</option>
+<option value="Guinea">Guinea</option>
+<option value="Guyana">Guyana</option>
+<option value="Haiti">Haiti</option>
+<option value="Hawaii">Hawaii</option>
+<option value="Honduras">Honduras</option>
+<option value="Hong Kong">Hong Kong</option>
+<option value="Hungary">Hungary</option>
+<option value="Iceland">Iceland</option>
+<option value="India" selected="selected">India</option>
+<option value="Indonesia">Indonesia</option>
+<option value="Iran">Iran</option>
+<option value="Iraq">Iraq</option>
+<option value="Ireland">Ireland</option>
+<option value="Isle of Man">Isle of Man</option>
+<option value="Israel">Israel</option>
+<option value="Italy">Italy</option>
+<option value="Jamaica">Jamaica</option>
+<option value="Japan">Japan</option>
+<option value="Jordan">Jordan</option>
+<option value="Kazakhstan">Kazakhstan</option>
+<option value="Kenya">Kenya</option>
+<option value="Kiribati">Kiribati</option>
+<option value="Korea North">Korea North</option>
+<option value="Korea Sout">Korea South</option>
+<option value="Kuwait">Kuwait</option>
+<option value="Kyrgyzstan">Kyrgyzstan</option>
+<option value="Laos">Laos</option>
+<option value="Latvia">Latvia</option>
+<option value="Lebanon">Lebanon</option>
+<option value="Lesotho">Lesotho</option>
+<option value="Liberia">Liberia</option>
+<option value="Libya">Libya</option>
+<option value="Liechtenstein">Liechtenstein</option>
+<option value="Lithuania">Lithuania</option>
+<option value="Luxembourg">Luxembourg</option>
+<option value="Macau">Macau</option>
+<option value="Macedonia">Macedonia</option>
+<option value="Madagascar">Madagascar</option>
+<option value="Malaysia">Malaysia</option>
+<option value="Malawi">Malawi</option>
+<option value="Maldives">Maldives</option>
+<option value="Mali">Mali</option>
+<option value="Malta">Malta</option>
+<option value="Marshall Islands">Marshall Islands</option>
+<option value="Martinique">Martinique</option>
+<option value="Mauritania">Mauritania</option>
+<option value="Mauritius">Mauritius</option>
+<option value="Mayotte">Mayotte</option>
+<option value="Mexico">Mexico</option>
+<option value="Midway Islands">Midway Islands</option>
+<option value="Moldova">Moldova</option>
+<option value="Monaco">Monaco</option>
+<option value="Mongolia">Mongolia</option>
+<option value="Montserrat">Montserrat</option>
+<option value="Morocco">Morocco</option>
+<option value="Mozambique">Mozambique</option>
+<option value="Myanmar">Myanmar</option>
+<option value="Nambia">Nambia</option>
+<option value="Nauru">Nauru</option>
+<option value="Nepal">Nepal</option>
+<option value="Netherland Antilles">Netherland Antilles</option>
+<option value="Netherlands">Netherlands (Holland, Europe)</option>
+<option value="Nevis">Nevis</option>
+<option value="New Caledonia">New Caledonia</option>
+<option value="New Zealand">New Zealand</option>
+<option value="Nicaragua">Nicaragua</option>
+<option value="Niger">Niger</option>
+<option value="Nigeria">Nigeria</option>
+<option value="Niue">Niue</option>
+<option value="Norfolk Island">Norfolk Island</option>
+<option value="Norway">Norway</option>
+<option value="Oman">Oman</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Palau Island">Palau Island</option>
+<option value="Palestine">Palestine</option>
+<option value="Panama">Panama</option>
+<option value="Papua New Guinea">Papua New Guinea</option>
+<option value="Paraguay">Paraguay</option>
+<option value="Peru">Peru</option>
+<option value="Phillipines">Philippines</option>
+<option value="Pitcairn Island">Pitcairn Island</option>
+<option value="Poland">Poland</option>
+<option value="Portugal">Portugal</option>
+<option value="Puerto Rico">Puerto Rico</option>
+<option value="Qatar">Qatar</option>
+<option value="Republic of Montenegro">Republic of Montenegro</option>
+<option value="Republic of Serbia">Republic of Serbia</option>
+<option value="Reunion">Reunion</option>
+<option value="Romania">Romania</option>
+<option value="Russia">Russia</option>
+<option value="Rwanda">Rwanda</option>
+<option value="St Barthelemy">St Barthelemy</option>
+<option value="St Eustatius">St Eustatius</option>
+<option value="St Helena">St Helena</option>
+<option value="St Kitts-Nevis">St Kitts-Nevis</option>
+<option value="St Lucia">St Lucia</option>
+<option value="St Maarten">St Maarten</option>
+<option value="St Pierre &amp; Miquelon">St Pierre &amp; Miquelon</option>
+<option value="St Vincent &amp; Grenadines">St Vincent &amp; Grenadines</option>
+<option value="Saipan">Saipan</option>
+<option value="Samoa">Samoa</option>
+<option value="Samoa American">Samoa American</option>
+<option value="San Marino">San Marino</option>
+<option value="Sao Tome &amp; Principe">Sao Tome &amp; Principe</option>
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="Senegal">Senegal</option>
+<option value="Serbia">Serbia</option>
+<option value="Seychelles">Seychelles</option>
+<option value="Sierra Leone">Sierra Leone</option>
+<option value="Singapore">Singapore</option>
+<option value="Slovakia">Slovakia</option>
+<option value="Slovenia">Slovenia</option>
+<option value="Solomon Islands">Solomon Islands</option>
+<option value="Somalia">Somalia</option>
+<option value="South Africa">South Africa</option>
+<option value="Spain">Spain</option>
+<option value="Sri Lanka">Sri Lanka</option>
+<option value="Sudan">Sudan</option>
+<option value="Suriname">Suriname</option>
+<option value="Swaziland">Swaziland</option>
+<option value="Sweden">Sweden</option>
+<option value="Switzerland">Switzerland</option>
+<option value="Syria">Syria</option>
+<option value="Tahiti">Tahiti</option>
+<option value="Taiwan">Taiwan</option>
+<option value="Tajikistan">Tajikistan</option>
+<option value="Tanzania">Tanzania</option>
+<option value="Thailand">Thailand</option>
+<option value="Togo">Togo</option>
+<option value="Tokelau">Tokelau</option>
+<option value="Tonga">Tonga</option>
+<option value="Trinidad &amp; Tobago">Trinidad &amp; Tobago</option>
+<option value="Tunisia">Tunisia</option>
+<option value="Turkey">Turkey</option>
+<option value="Turkmenistan">Turkmenistan</option>
+<option value="Turks &amp; Caicos Is">Turks &amp; Caicos Is</option>
+<option value="Tuvalu">Tuvalu</option>
+<option value="Uganda">Uganda</option>
+<option value="Ukraine">Ukraine</option>
+<option value="United Arab Erimates">United Arab Emirates</option>
+<option value="United Kingdom">United Kingdom</option>
+<option value="United States of America">United States of America</option>
+<option value="Uraguay">Uruguay</option>
+<option value="Uzbekistan">Uzbekistan</option>
+<option value="Vanuatu">Vanuatu</option>
+<option value="Vatican City State">Vatican City State</option>
+<option value="Venezuela">Venezuela</option>
+<option value="Vietnam">Vietnam</option>
+<option value="Virgin Islands (Brit)">Virgin Islands (Brit)</option>
+<option value="Virgin Islands (USA)">Virgin Islands (USA)</option>
+<option value="Wake Island">Wake Island</option>
+<option value="Wallis &amp; Futana Is">Wallis &amp; Futana Is</option>
+<option value="Yemen">Yemen</option>
+<option value="Zaire">Zaire</option>
+<option value="Zambia">Zambia</option>
+<option value="Zimbabwe">Zimbabwe</option>
+</select></td></tr>
+	<tr><td><font color="black"><b>City : </b></font></td><td> <input type="text" name="adm_city" required></td></tr>
+	<tr><td><font color="black"><b>Office Address : </b></font></td><td> <textarea name="adm_add" cols="50" rows="5"required></textarea></td></tr>
+	<tr><td><font color="black"><b>Timezone : </b></font></td><td>  
+	<select name="adm_timezone">
+		<option value="-12" >(GMT -12:00) Eniwetok, Kwajalein</option>
+        <option value="-11" >(GMT -11:00) Midway Island, Samoa</option>
+        <option value="-10" >(GMT -10:00) Hawaii</option>
+        <option value="-9"  >(GMT -9:00) Alaska</option>
+        <option value="-8"  >(GMT -8:00) Pacific Time (US &amp; Canada)</option>
+        <option value="-7"  >(GMT -7:00) Mountain Time (US &amp; Canada)</option>
+        <option value="-6"  >(GMT -6:00) Central Time (US &amp; Canada), Mexico City</option>
+        <option value="-5"  >(GMT -5:00) Eastern Time (US &amp; Canada), Bogota, Lima</option>
+        <option value="-4.5">(GMT -4:30) Caracas</option>
+        <option value="-4"  >(GMT -4:00) Atlantic Time (Canada), La Paz, Santiago</option>
+        <option value="-3.5">(GMT -3:30) Newfoundland</option>
+        <option value="-3"  >(GMT -3:00) Brazil, Buenos Aires, Georgetown</option>
+        <option value="-2"  >(GMT -2:00) Mid-Atlantic</option>
+        <option value="-1"  >(GMT -1:00 hour) Azores, Cape Verde Islands</option>
+        <option value="0"   >(GMT) Western Europe Time, London, Lisbon, Casablanca, Greenwich</option>
+        <option value="1"   >(GMT +1:00 hour) Brussels, Copenhagen, Madrid, Paris</option>
+        <option value="2"   >(GMT +2:00) Kaliningrad, South Africa, Cairo</option>
+        <option value="3"   >(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg</option>
+        <option value="3.5" >(GMT +3:30) Tehran</option>
+        <option value="4"   >(GMT +4:00) Abu Dhabi, Muscat, Yerevan, Baku, Tbilisi</option>
+        <option value="4.5" >(GMT +4:30) Kabul</option>
+        <option value="5"   >(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent</option>
+        <option value="5.5" selected="selected">(GMT +5:30) Mumbai, Kolkata, Chennai, New Delhi</option>
+        <option value="5.75">(GMT +5:45) Kathmandu</option>
+        <option value="6"   >(GMT +6:00) Almaty, Dhaka, Colombo</option>
+        <option value="6.5" >(GMT +6:30) Yangon, Cocos Islands</option>
+        <option value="7"   >(GMT +7:00) Bangkok, Hanoi, Jakarta</option>
+        <option value="8"   >(GMT +8:00) Beijing, Perth, Singapore, Hong Kong</option>
+        <option value="9"   >(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk</option>
+        <option value="9.5" >(GMT +9:30) Adelaide, Darwin</option>
+        <option value="10"  >(GMT +10:00) Eastern Australia, Guam, Vladivostok</option>
+        <option value="11"  >(GMT +11:00) Magadan, Solomon Islands, New Caledonia</option>
+        <option value="12"  >(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka</option>
+	</select></td></tr>
+	<tr><td><font color="black"><b>Email-id :</b></font></td><td> <input type="email" name="adm_mail" required></td></tr>
+	<tr><td><font color="black"><b>Telephone :</b></font></td><td> <input type="tel" name="adm_tel" required></td></tr>
+	<tr><td><font color="black"><b>Password :</b></font></td><td> <input type="password" name="adm_pass" id="password" required></td></tr>
+	<tr><td><font color="black"><b>Confirm Password :</b></font></td><td> <input type="password" name="adm_cpass" id="confirm_password" required></td></tr>
+</table>
+	<input class="pre_btn bttn" type="button" value="Previous">
+<input class="submit_btn bttn" type="submit" value="Submit">
+</fieldset>
+</form>
+</div>
+</div>
+<div class="footer navbar-bottom">
+<footer>
+<nav class="navbar-left"
+style="margin-left: 20px; margin-right: 30px; margin-bottom: 10px">
+<span class="glyphicon glyphicon-copyright-mark white">
+<font color="white">Copyrights reserved by Aricent</font>
+</span>
+</nav>
+<nav class="navbar-right" style=" margin-left: -20px; margin-right: 30px; margin-bottom:10px">
+<p class="p2" style="margin-right:10px"><font color="white"><b><i>Follow us on   </i></b></font></p>
+<input onclick="location.href='http://facebook.com';" type="button" class="btn btn-default sign-in-facebook" style="margin-top:2px; margin-bottom:2px; margin-right:10px" >
+<input onclick="location.href='http://twitter.com';" type="button" class="btn btn-default sign-in-twitter" style="margin-top:2px; margin-bottom:2px;  margin-right:10px" >
+<input onclick="location.href='http://linkedin.com';" type="button" class="btn btn-default sign-in-linkedin" style="margin-top:2px; margin-bottom:2px;  margin-right:10px" >
+</nav>
+</footer>
+</div>
+
+<script>
+var password = document.getElementById("password")
+, confirm_password = document.getElementById("confirm_password");
+
+function validatePassword(){
+if(password.value != confirm_password.value) {
+  confirm_password.setCustomValidity("Passwords Don't Match");
+} else {
+  confirm_password.setCustomValidity('');
+}
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+</script>
+
+</body>
+</html>

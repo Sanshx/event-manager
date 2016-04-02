@@ -1,0 +1,245 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+	<display-name>Archetype Created Web Application</display-name>
+
+	<listener>
+		<listener-class>
+			com.aricent.java_classes.AutomaticMailInvoker
+		</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>OrganizationRegistration</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.OrganizationRegistration</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>BdayDisplay</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.BdayDisplay</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AnniversaryDisplay</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.AnniversaryDisplay</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ValidateSession</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.ValidateSession</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewTeam</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.ViewTeam</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewMembers</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.ViewMembers</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddTeam</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.AddTeam</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteTeam</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.DeleteTeam</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateTeam</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.UpdateTeam</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddEmployeeToTeam</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.AddEmployeeToTeam</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteEmployeeFromTeam</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.DeleteEmployeeFromTeam</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetEmployeeData</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.GetEmployeeData</servlet-class>
+	</servlet>	
+	<servlet>
+		<servlet-name>GetLocations</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.GetLocations</servlet-class>
+	</servlet>	
+	<servlet>
+		<servlet-name>ModifyEmployeeData</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.ModifyEmployeeData</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ModifyLocations</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.ModifyLocations</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteEmployee</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.DeleteEmployee</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddSubAdmin</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.AddSubAdmin</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteSubAdmin</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.DeleteSubAdmin</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowSubAdmin</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.ShowSubAdmin</servlet-class>
+	</servlet>
+	
+	
+
+	<servlet>
+		<servlet-name>GetWishMessages</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.GetWishMessages</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddWishMessages</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.AddWishMessages</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteWishMessages</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.DeleteWishMessages</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>EditWishMessages</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.EditWishMessages</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>RemoveLocations</servlet-name>
+		<servlet-class>com.aricent.servlet_classes.RemoveLocations</servlet-class>
+	</servlet>
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>OrganizationRegistration</servlet-name>
+		<url-pattern>/OrganizationRegistration</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>BdayDisplay</servlet-name>
+		<url-pattern>/BdayDisplay</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AnniversaryDisplay</servlet-name>
+		<url-pattern>/AnniversaryDisplay</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ValidateSession</servlet-name>
+		<url-pattern>/ValidateSession</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewTeam</servlet-name>
+		<url-pattern>/ViewTeam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewMembers</servlet-name>
+		<url-pattern>/ViewMembers</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddTeam</servlet-name>
+		<url-pattern>/AddTeam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteTeam</servlet-name>
+		<url-pattern>/DeleteTeam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateTeam</servlet-name>
+		<url-pattern>/UpdateTeam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddEmployeeToTeam</servlet-name>
+		<url-pattern>/AddEmployeeToTeam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteEmployeeFromTeam</servlet-name>
+		<url-pattern>/DeleteEmployeeFromTeam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetEmployeeData</servlet-name>
+		<url-pattern>/GetEmployeeData</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetLocations</servlet-name>
+		<url-pattern>/GetLocations</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModifyEmployeeData</servlet-name>
+		<url-pattern>/ModifyEmployeeData</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModifyLocations</servlet-name>
+		<url-pattern>/ModifyLocations</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteEmployee</servlet-name>
+		<url-pattern>/DeleteEmployee</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>AddSubAdmin</servlet-name>
+		<url-pattern>/AddSubAdmin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteSubAdmin</servlet-name>
+		<url-pattern>/DeleteSubAdmin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowSubAdmin</servlet-name>
+		<url-pattern>/ShowSubAdmin</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>GetWishMessages</servlet-name>
+		<url-pattern>/GetWishMessages</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddWishMessages</servlet-name>
+		<url-pattern>/AddWishMessages</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteWishMessages</servlet-name>
+		<url-pattern>/DeleteWishMessages</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>EditWishMessages</servlet-name>
+		<url-pattern>/EditWishMessages</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RemoveLocations</servlet-name>
+		<url-pattern>/RemoveLocations</url-pattern>
+	</servlet-mapping>
+	
+
+	<welcome-file-list>
+		<welcome-file>Home.html</welcome-file>
+	</welcome-file-list>
+
+
+</web-app>
