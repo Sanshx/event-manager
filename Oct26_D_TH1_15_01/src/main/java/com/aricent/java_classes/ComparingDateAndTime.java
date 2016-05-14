@@ -1,31 +1,3 @@
-/***********************************************************************
-                         Aricent Technologies Proprietary
-
-
-
-This source code is the sole property of Aricent Technologies. Any form of utilization
-of this source code in whole or in part is  prohibited without  written consent from
-Aricent Technologies
-
-	  File Name	            	: ComparingDateAndTime.java
-	  Principal Author      	: Gursimran Kaur Maken gur43131
-	  Subsystem Name        	:
-	  Module Name           	:
-	  Date of First Release 	: Jan 5, 2016
-	  Author					: gur43131
-	  Description           	: This file contains a class for comparison 
-	  							  of date and time. It has static functions
-	  							  for comparison
-
-
-	  Change History
-
-	  Version      				:
-	  Date(DD/MM/YYYY) 			:
-	  Modified by				:
-	  Description of change 	:
-
- ***********************************************************************/
 package com.aricent.java_classes;
 
 import java.util.Calendar;

@@ -1,28 +1,3 @@
-/***********************************************************************
-                         Aricent Technologies Proprietary
-
-
-This source code is the sole property of Aricent Technologies. Any form of utilization
-of this source code in whole or in part is  prohibited without  written consent from
-Aricent Technologies
-
-	  File Name	            	: DatabaseConnection.java
-	  Principal Author      	: Sanchit Saxena gur43194
-	  Subsystem Name        	:
-	  Module Name           	:
-	  Date of First Release 	: Jan 4, 2016
-	  Author					: gur43194
-	  Description           	: This file contains DatabaseConnection class
-
-
-	  Change History
-
-	  Version      				:
-	  Date(DD/MM/YYYY) 			:
-	  Modified by				:
-	  Description of change 	:
-
-***********************************************************************/
 package com.aricent.database_connection;
 
 import java.sql.Connection;

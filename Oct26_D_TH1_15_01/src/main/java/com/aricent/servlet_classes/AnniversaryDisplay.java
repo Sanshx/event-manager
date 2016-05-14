@@ -1,28 +1,3 @@
-/***********************************************************************
-                         Aricent Technologies Proprietary
-
-
-This source code is the sole property of Aricent Technologies. Any form of utilization
-of this source code in whole or in part is  prohibited without  written consent from
-Aricent Technologies
-
-	  File Name	            	: AnniversaryDisplay.java
-	  Principal Author      	: Gaurav Kumar
-	  Subsystem Name        	:
-	  Module Name           	: Employee Details Manager
-	  Date of First Release 	: Jan 12, 2016
-	  Author					: Gaurav Kumar
-	  Description           	: This file contains AnniversaryDisplay Servlet
-
-
-	  Change History
-
-	  Version      				:
-	  Date(DD/MM/YYYY) 			:
-	  Modified by				:
-	  Description of change 	:
-
- ***********************************************************************/
 
 package com.aricent.servlet_classes;
 

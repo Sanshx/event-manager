@@ -1,33 +1,3 @@
-/***********************************************************************
-                         Aricent Technologies Proprietary
-
-
-
-
-
-This source code is the sole property of Aricent Technologies. Any form of utilization
-of this source code in whole or in part is  prohibited without  written consent from
-Aricent Technologies
-
-	  File Name	            	: AutomaticMailInvoker.java
-	  Principal Author      	: Sanchit Saxena gur43194
-	  Subsystem Name        	:
-	  Module Name           	:
-	  Date of First Release 	: Jan 5, 2016
-	  Author					: gur43194
-	  Description           	: This file contains Automatic invoker class
-	  							  which runs the Automatic mailing system at
-	  							  a fixed amount of time.
-
-
-	  Change History
-
-	  Version      				:
-	  Date(DD/MM/YYYY) 			:
-	  Modified by				:
-	  Description of change 	:
-
- ***********************************************************************/
 package com.aricent.java_classes;
 
 import javax.servlet.ServletContextEvent;

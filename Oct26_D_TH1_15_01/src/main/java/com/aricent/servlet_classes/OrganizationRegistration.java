@@ -1,28 +1,3 @@
-/***********************************************************************
-                         Aricent Technologies Proprietary
-
-
-This source code is the sole property of Aricent Technologies. Any form of utilization
-of this source code in whole or in part is  prohibited without  written consent from
-Aricent Technologies
-
-	  File Name	            	: OrganizationRegistration.java
-	  Principal Author      	: Gaurav Kumar
-	  Subsystem Name        	:
-	  Module Name           	: Company Registration
-	  Date of First Release 	: Jan 5, 2016
-	  Author					: Gaurav Kumar
-	  Description           	: This file contains OrganizationRegistration Servlet
-
-
-	  Change History
-
-	  Version      				:
-	  Date(DD/MM/YYYY) 			:
-	  Modified by				:
-	  Description of change 	:
-
- ***********************************************************************/
 
 package com.aricent.servlet_classes;
 

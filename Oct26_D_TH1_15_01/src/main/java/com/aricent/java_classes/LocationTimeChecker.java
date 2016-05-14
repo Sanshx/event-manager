@@ -1,33 +1,3 @@
-/***********************************************************************
-                         Aricent Technologies Proprietary
-
-
-
-This source code is the sole property of Aricent Technologies. Any form of utilization
-of this source code in whole or in part is  prohibited without  written consent from
-Aricent Technologies
-
-	  File Name	            	: LocationTimeChecker.java
-	  Principal Author      	: Sanchit Saxena gur43194
-	  Subsystem Name        	:
-	  Module Name           	:
-	  Date of First Release 	: Jan 5, 2016
-	  Author					: gur43194
-	  Description           	: This file contain class which has function
-	   							  to find the locations which had a new day.
-	   							  Those locations are passed to next function
-	   							  for fetching the birthdays and work anniversary
-	   							  of the employees of that locations
-
-
-	  Change History
-
-	  Version      				:
-	  Date(DD/MM/YYYY) 			:
-	  Modified by				:
-	  Description of change 	:
-
- ***********************************************************************/
 package com.aricent.java_classes;
 
 import java.util.ArrayList;
